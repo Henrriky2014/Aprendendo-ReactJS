@@ -5,13 +5,13 @@ import GlobalSyles from './styles/global'
 
 import theme from './styles/theme';
 
-import { Profile } from './pages/Profile'
+import { Routes } from './routes'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalSyles />
-      <Profile />
+      <Routes />
     </ThemeProvider>
   </React.StrictMode>,
 )
