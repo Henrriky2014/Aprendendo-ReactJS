@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 import { useAuth } from '../../hooks/auth';
 
-import avatarPlaceholder from '../../assets/avatar_placeholder.svg'
+import avatarPlaceholder from "../../assets/avatarPlaceholder.svg";
 
 import { api } from '../../services/api';
 

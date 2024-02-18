@@ -39,10 +39,10 @@ function AuthProvider({ children }) {
         try {
 
             if(avatarFile) {
-                const fileUpdateForm = new FormData();
-                fileUpdateForm.append("avatar", avatarFile);
+                const fileUploadForm = new FormData();
+                fileUploadForm.append("avatar", avatarFile);
 
-                const response = await api.patch("/users/avatar", fileUpdateForm);
+                const response = await api.patch("/users/avatar", fileUploadForm);
                 user.avatar = response.data.avatar;
             }
 
