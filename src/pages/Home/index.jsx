@@ -9,6 +9,7 @@ import { Section } from '../../components/Section';
 import { ButtonText } from '../../components/ButtonText';
 
 export function Home() {
+    
     return (
         <Container>
             <Brand>
